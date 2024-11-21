@@ -1,0 +1,21 @@
+.table-container {
+  height: 90vh; /* 브라우저 높이의 80% */
+  overflow-y: scroll; /* 세로 스크롤 활성화 */
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 5px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+}
